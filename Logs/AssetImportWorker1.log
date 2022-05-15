@@ -15,7 +15,7 @@ C:/Games/Unity/GT/BlockMind
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53815
+56507
 Successfully changed project path to: C:/Games/Unity/GT/BlockMind
 C:/Games/Unity/GT/BlockMind
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Games/Unity/GT/BlockMind
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 107.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,49 +63,49 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002166 seconds.
+Registered in 0.002854 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 135.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.184 seconds
+- Completed reload, in  0.691 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2185ms)
-		BeginReloadAssembly (1350ms)
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (717ms)
-			LoadAssemblies (1439ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (65ms)
+				InitializePlatformSupportModulesInManaged (53ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013083 seconds.
+Registered in 0.006114 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -113,46 +113,164 @@ Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Lib
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 138.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.083 seconds
+- Completed reload, in  1.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4084ms)
-		BeginReloadAssembly (2088ms)
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (218ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (172ms)
-		EndReloadAssembly (1872ms)
-			LoadAssemblies (2208ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (904ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (554ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (302ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4877 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5333.
-Memory consumption went from 192.4 MB to 191.7 MB.
-Total: 9.618900 ms (FindLiveObjects: 2.172400 ms CreateObjectMapping: 0.650200 ms MarkObjects: 6.252200 ms  DeleteObjects: 0.541500 ms)
+Unloading 4879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (424.8 KB). Loaded Objects now: 5336.
+Memory consumption went from 191.8 MB to 191.3 MB.
+Total: 3.993900 ms (FindLiveObjects: 0.447700 ms CreateObjectMapping: 0.384600 ms MarkObjects: 2.898900 ms  DeleteObjects: 0.261400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005145 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (407.3 KB). Loaded Objects now: 5338.
+Memory consumption went from 183.6 MB to 183.2 MB.
+Total: 3.804900 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.264800 ms MarkObjects: 2.930500 ms  DeleteObjects: 0.263800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1152ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (415.2 KB). Loaded Objects now: 5352.
+Memory consumption went from 183.9 MB to 183.5 MB.
+Total: 4.331300 ms (FindLiveObjects: 0.889500 ms CreateObjectMapping: 0.501500 ms MarkObjects: 2.629300 ms  DeleteObjects: 0.309200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,30 +284,840 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 61385.314973 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/sample_scene/ground_mat.mat
-  artifactKey: Guid(79c4d1385b716e24aa89e47fd2f40c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/sample_scene/ground_mat.mat using Guid(79c4d1385b716e24aa89e47fd2f40c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bb8d4e07f1eafd1b1b5bb2ab50ae09') in 2.173356 seconds 
+  Time since last request: 488.468642 seconds.
+  path: Assets/Joystick Pack/Examples/Player.mat
+  artifactKey: Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Player.mat using Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02d4c2508e28369c3d9b50d68b6456c') in 0.581767 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 409.065272 seconds.
-  path: Assets/Settings/URP-Balanced-Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3b643dd8250ee901a01ee80ff5d07d') in 0.019266 seconds 
+  Time since last request: 24.349689 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b8864e5c00750eeeef240228dac7d80') in 0.470773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_combat_reload.FBX
+  artifactKey: Guid(283118177c5fa4c40b050a87937abb2e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_combat_reload.FBX using Guid(283118177c5fa4c40b050a87937abb2e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2de99f1bba29e5c3e85945437dadbe05') in 0.278799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_shoot.FBX
+  artifactKey: Guid(809bd44ea7f3ddd4f82d4c22a1039f1d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_shoot.FBX using Guid(809bd44ea7f3ddd4f82d4c22a1039f1d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad4095aaf6b6a76680dac35f5be87055') in 0.039967 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Settings/URP-Performant-Renderer.asset
-  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1851fb5d14fdf4fbaae77cf6351644c') in 0.013810 seconds 
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_reload_shotgun.FBX
+  artifactKey: Guid(86f02fd1323ba214895160be3a07daee) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_reload_shotgun.FBX using Guid(86f02fd1323ba214895160be3a07daee) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93fa5a748a529f9e051198b2c3d41605') in 0.039800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+  artifactKey: Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png using Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b412e7650cdbf1857e92c7352e9d3ce') in 0.067781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Joystick Pack/Examples/JoystickPlayerExample.cs
+  artifactKey: Guid(a37d705c8e9115e439ec799186182634) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Examples/JoystickPlayerExample.cs using Guid(a37d705c8e9115e439ec799186182634) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbdbe35bb3d6c878f4eb23659f44008a') in 0.013120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4106ff9c2667bac8f85122c5c3f78e6c') in 0.030297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab
+  artifactKey: Guid(0d230cc8be529a542a08cb878ab14b18) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Prefabs/Floating Joystick.prefab using Guid(0d230cc8be529a542a08cb878ab14b18) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05745a7016f753871075eca8183a386c') in 0.047348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba76e02c40e317c67eecee67f00380e8') in 0.019589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png
+  artifactKey: Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png using Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eba1eaa8509c305c8044f10a2e6293a') in 0.018186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+  artifactKey: Guid(c615706690ca87043ad593475e6db7ec) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png using Guid(c615706690ca87043ad593475e6db7ec) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b3eb07319f835dce2b1aeb2cf487f5a') in 0.025150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49650aa3bcb63b882550ceed67ca185f') in 0.032616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs
+  artifactKey: Guid(58b5a2db95af76c4c9d4116a09ec3697) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs using Guid(58b5a2db95af76c4c9d4116a09ec3697) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f205292a5a2554c7968a7b8e6eb6ae34') in 0.009458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_combat_idle.FBX
+  artifactKey: Guid(29a48912b5d91af4da9410ec2eee1830) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_combat_idle.FBX using Guid(29a48912b5d91af4da9410ec2eee1830) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '006d56014b8008b871c44f26aebead4c') in 0.033208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_combat_draw.FBX
+  artifactKey: Guid(ee42f7dcc4fb87d478c08ead83a5eff3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_combat_draw.FBX using Guid(ee42f7dcc4fb87d478c08ead83a5eff3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9416fc63b760e0e98a37885e007467a1') in 0.037939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_death_B.FBX
+  artifactKey: Guid(61392136ee961304c916878e5cd1ffae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_death_B.FBX using Guid(61392136ee961304c916878e5cd1ffae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c52bd7866505cdb69d7a142721f3ffbc') in 0.044650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_combat_draw.FBX
+  artifactKey: Guid(538516209b2837c4e878e3d86d9e6f48) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_combat_draw.FBX using Guid(538516209b2837c4e878e3d86d9e6f48) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b301c98be26e99909291901f08fc9c04') in 0.041968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_combat_draw.FBX
+  artifactKey: Guid(d37f9dc72fcda874889b1cf03890c3f4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_combat_draw.FBX using Guid(d37f9dc72fcda874889b1cf03890c3f4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fc58ddba2239f26b377e7e95b2e1fea') in 0.040948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_combat_reload.FBX
+  artifactKey: Guid(896ffc15f8b803344afc2c91c27f1773) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_combat_reload.FBX using Guid(896ffc15f8b803344afc2c91c27f1773) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '862b9c4e756b7d2ffdbfcbec138388ab') in 0.043783 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Settings/URP-Performant.asset
-  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487870a79fa3f7c27236b295a642ea4f') in 0.011734 seconds 
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_interact_A.FBX
+  artifactKey: Guid(fd00cfa149936ff4bbfb6fd90477db1e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_interact_A.FBX using Guid(fd00cfa149936ff4bbfb6fd90477db1e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5d2e8eadfeebcabb278587a21e8e41e') in 0.036182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_death_D.FBX
+  artifactKey: Guid(b7b9e6214813ede4b9240f94e0a932f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_death_D.FBX using Guid(b7b9e6214813ede4b9240f94e0a932f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8099f3008e5bbbdff8b29392a6e6f7c7') in 0.033670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_take_damage.FBX
+  artifactKey: Guid(99034f320a75ca74597a0c7927d39311) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_take_damage.FBX using Guid(99034f320a75ca74597a0c7927d39311) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f1665f9aa2610ff168e681dcabb4bd0') in 0.049953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_death_E.FBX
+  artifactKey: Guid(57bab65b39831f348a454005d5db770a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_death_E.FBX using Guid(57bab65b39831f348a454005d5db770a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d47c00d09b36a2be1cc2b193da4feb') in 0.038516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_death_A.FBX
+  artifactKey: Guid(acd4041067cf4684ba0423adc744c0dd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_death_A.FBX using Guid(acd4041067cf4684ba0423adc744c0dd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e85f4602bc396a81aa4faabd1f9bf7d') in 0.048044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png
+  artifactKey: Guid(ab6db91373811284caeba2e9472fa9c2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png using Guid(ab6db91373811284caeba2e9472fa9c2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56cde43bc3f380c7b8cd3ebab522507f') in 0.028455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '963513fa30eb5790ac590bfd44f827e9') in 0.037254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_interact_A.FBX
+  artifactKey: Guid(d7ad6b11988e594428130dfb39a3dc27) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_interact_A.FBX using Guid(d7ad6b11988e594428130dfb39a3dc27) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50f03cca2a4be182436161b128546574') in 0.049611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_ak12_drum_mag.FBX
+  artifactKey: Guid(048eed1f9d891764fa8a679aaf71fffb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_ak12_drum_mag.FBX using Guid(048eed1f9d891764fa8a679aaf71fffb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7df828c28cab71a864a06335a20153a') in 0.054054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_combat_idle.FBX
+  artifactKey: Guid(fc8f8a35728b10140b265c37125dcd12) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_combat_idle.FBX using Guid(fc8f8a35728b10140b265c37125dcd12) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fec96d7d7b250b08851afa65fe86d575') in 0.039726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_death_B.FBX
+  artifactKey: Guid(db8b38fa59d97f6429bf26570268e853) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_death_B.FBX using Guid(db8b38fa59d97f6429bf26570268e853) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '417f5859f18afd9d3e6783bfbd87e052') in 0.032219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '778cf4c7ffee556ff70fb72fd5f9cdf6') in 0.013050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs
+  artifactKey: Guid(614d06243900d764f9c50b4da2c950a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs using Guid(614d06243900d764f9c50b4da2c950a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11db44fc23fd18425942fcf0f67b63da') in 0.009314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_death_B.FBX
+  artifactKey: Guid(7b5e84d95cdc137428201e95846d3b64) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_death_B.FBX using Guid(7b5e84d95cdc137428201e95846d3b64) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8909cd04af40709017ec6db98ee50628') in 0.051831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_interact_B.FBX
+  artifactKey: Guid(7ff22b9ee0170ff4a8b8f643446fe32d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_interact_B.FBX using Guid(7ff22b9ee0170ff4a8b8f643446fe32d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ba391e59db7ddbf7a6147f3daa434ad') in 0.034023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_death_C.FBX
+  artifactKey: Guid(ae8bd4fe5e5bc8744bb7918e4346f73c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_death_C.FBX using Guid(ae8bd4fe5e5bc8744bb7918e4346f73c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42939b5de4ea9d4fb936c360058d4e1b') in 0.044065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_reload_bullpup.FBX
+  artifactKey: Guid(52c67b3e0277cf74ab05fb627314500f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_reload_bullpup.FBX using Guid(52c67b3e0277cf74ab05fb627314500f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b255e3db3d41b54ef42c45325af550db') in 0.038430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_combat_draw.FBX
+  artifactKey: Guid(db35cf67e46d2bd4890409d2b2739921) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Knife/knife_combat_draw.FBX using Guid(db35cf67e46d2bd4890409d2b2739921) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc1409a2164e797e190818d93e091d96') in 0.036979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs
+  artifactKey: Guid(42844a4fccbd54746b90cade4ff70f73) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs using Guid(42844a4fccbd54746b90cade4ff70f73) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a4dd6b3aca5184c380c35283af24f4d') in 0.008161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bff106b414b1abdc12fb1f333a17080') in 0.022964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_throw_grenade.FBX
+  artifactKey: Guid(1a45a2b943fd8b5428cd668aacb62a98) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_throw_grenade.FBX using Guid(1a45a2b943fd8b5428cd668aacb62a98) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6244b92b812d78fabd5bb5376529ef7a') in 0.049841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_combat_shoot_loop.FBX
+  artifactKey: Guid(cadfb69d974823a48a82c0a783fdc26c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_combat_shoot_loop.FBX using Guid(cadfb69d974823a48a82c0a783fdc26c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60ccaa027f2bb7620acda65946f21090') in 0.034984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_hk433.FBX
+  artifactKey: Guid(cce0c607b6a1e5f478ace1e344877883) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_hk433.FBX using Guid(cce0c607b6a1e5f478ace1e344877883) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ebd558e4a3e7d22032b13991045bd74') in 0.023260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_g36c.FBX
+  artifactKey: Guid(c5c4b0d7a5b07a9449019b01139542e8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_g36c.FBX using Guid(c5c4b0d7a5b07a9449019b01139542e8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71ead38a7a0c680b4ff361b80d88d633') in 0.057064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m16.FBX
+  artifactKey: Guid(45dedc0f8a0695947a4913f73e2236a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m16.FBX using Guid(45dedc0f8a0695947a4913f73e2236a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c986194834578474f9c2fb7982424320') in 0.034161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m249.FBX
+  artifactKey: Guid(222d79332ac14c6499be73e4db9c8ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m249.FBX using Guid(222d79332ac14c6499be73e4db9c8ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d34177238b48e91d85e58dec7cec71e') in 0.030716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_smaw.FBX
+  artifactKey: Guid(3d03fccb393290741962c99469e7b30c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_smaw.FBX using Guid(3d03fccb393290741962c99469e7b30c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91c63737db45a2fef7a999681c2d8486') in 0.033465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_tavor.FBX
+  artifactKey: Guid(e2514cdea8d52904cba1d8476b329c0e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_tavor.FBX using Guid(e2514cdea8d52904cba1d8476b329c0e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '646ce3965bcbf012e11a589bfbc85aa0') in 0.027471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_g36k.FBX
+  artifactKey: Guid(8921eb9d583caa645a85db907baf7ae6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_g36k.FBX using Guid(8921eb9d583caa645a85db907baf7ae6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c20336f71fa018e536bc9a57239a7426') in 0.019535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m4_tac.FBX
+  artifactKey: Guid(2a104923c808d8c4085523200601a97f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m4_tac.FBX using Guid(2a104923c808d8c4085523200601a97f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b42cc3b6c1e5b93af6a7bdf72117ee51') in 0.032169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/materials/TS_armies_Weapons.mat
+  artifactKey: Guid(342b66954c285474f8588be497b1fc33) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/materials/TS_armies_Weapons.mat using Guid(342b66954c285474f8588be497b1fc33) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3829dc2fb862b4978219479aa57d3ddf') in 0.121446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m110.FBX
+  artifactKey: Guid(4af8bcf25a077c046a32a40e08621cfd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m110.FBX using Guid(4af8bcf25a077c046a32a40e08621cfd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b296157c24a1d341edc4d666121ccb56') in 0.024186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_interact_B.FBX
+  artifactKey: Guid(ebeed47394644ab49b275a3fe1f2fc25) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_interact_B.FBX using Guid(ebeed47394644ab49b275a3fe1f2fc25) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bf6e76ed60a482b00c570d01251118d') in 0.042172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/spec_ops/TS-SpecOps_Sniper_A.prefab
+  artifactKey: Guid(54851f7b62e6bfc4da10734438a62dca) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/spec_ops/TS-SpecOps_Sniper_A.prefab using Guid(54851f7b62e6bfc4da10734438a62dca) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '453ad096d7843a3884bf66f11945925a') in 0.409713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Soldier_C.prefab
+  artifactKey: Guid(33f3d6feb38f88842ae03df0787556a4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Soldier_C.prefab using Guid(33f3d6feb38f88842ae03df0787556a4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa71b05b18f63dc033ece98a2e59435c') in 0.398187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Support.prefab
+  artifactKey: Guid(3f5c2682da7630b45a917fbf757d4641) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Support.prefab using Guid(3f5c2682da7630b45a917fbf757d4641) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e028dde441c6b88b041106ed0520515b') in 0.379607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/spec_ops/TS-SpecOps_Officer.prefab
+  artifactKey: Guid(b85cc7e621caa0949ab1581426ef1ba2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/spec_ops/TS-SpecOps_Officer.prefab using Guid(b85cc7e621caa0949ab1581426ef1ba2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4747279a16f8b99650aaacad162c2e4') in 0.338157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_walk.FBX
+  artifactKey: Guid(b0d19e5c0cd4a4a4f9784b930836b633) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_walk.FBX using Guid(b0d19e5c0cd4a4a4f9784b930836b633) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9318ac0e2bcee72cb1ecea2da7a169a9') in 0.032681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Soldier_B.prefab
+  artifactKey: Guid(a4c595c238bd58c45b601a8ea61a732d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Soldier_B.prefab using Guid(a4c595c238bd58c45b601a8ea61a732d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a86461858865654cf4e7646fce1041a5') in 0.372305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Sniper_B.prefab
+  artifactKey: Guid(385dd62362f61114fb5cc54eaf64fac2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Sniper_B.prefab using Guid(385dd62362f61114fb5cc54eaf64fac2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '291b5fb8b869b2d04d514f6009a13d30') in 0.450675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_shoot_shotgun.FBX
+  artifactKey: Guid(aa15906d6d06bbf4a890b5f6031a956f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_shoot_shotgun.FBX using Guid(aa15906d6d06bbf4a890b5f6031a956f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ced423a036a6370bce24b2d97165d5a2') in 0.046445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_throw_grenade.FBX
+  artifactKey: Guid(9958854f31a078d419a8f83897bb017c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_throw_grenade.FBX using Guid(9958854f31a078d419a8f83897bb017c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76d41e26be53d44859381d5ac5e7a61f') in 0.040560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m16_GL.FBX
+  artifactKey: Guid(c768ec754364c76438c4db0ca4d07f5f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_m16_GL.FBX using Guid(c768ec754364c76438c4db0ca4d07f5f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f7647ebee5b75cf464a25dcbcafebd5') in 0.034263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+  artifactKey: Guid(54628aafa20f64b40ae661038ee7abf0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png using Guid(54628aafa20f64b40ae661038ee7abf0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1e0582cf74c213c22ad58f9a28e6c2e') in 0.022776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_sprint.FBX
+  artifactKey: Guid(7afd9ac4420d1174d85e60fc20e038cd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_sprint.FBX using Guid(7afd9ac4420d1174d85e60fc20e038cd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '864a2f8b84db5633b1a91b863d109955') in 0.042594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_death_A.FBX
+  artifactKey: Guid(763119fa313902d459ec70319fa08c12) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/handgun_death_A.FBX using Guid(763119fa313902d459ec70319fa08c12) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1e0761ac8067a4c7038bc63878e7140') in 0.051759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_interact_B.FBX
+  artifactKey: Guid(214ed9c3371708b4faaa5cf342916563) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Machinegun/machinegun_interact_B.FBX using Guid(214ed9c3371708b4faaa5cf342916563) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63512ca68f33b14ea2cb4de670e11c3') in 0.041491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_death_A.FBX
+  artifactKey: Guid(d8ae60dfbf5c0c843b800cdd96462bef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/RocketLauncher/rocketlauncher_death_A.FBX using Guid(d8ae60dfbf5c0c843b800cdd96462bef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcfbd62065cbaca42bc508e522a907be') in 0.044671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_L85.FBX
+  artifactKey: Guid(8e71483004de2c84c927651de4ff4c7b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/models/weapons/w_L85.FBX using Guid(8e71483004de2c84c927651de4ff4c7b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8634b0efb1cdb84214c2dd5570f8a9c8') in 0.028177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_walk_right.FBX
+  artifactKey: Guid(9340650c1fb45a745be26512258ac65f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_walk_right.FBX using Guid(9340650c1fb45a745be26512258ac65f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '113a4d685a82d7952004abe27ebd7548') in 0.046120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_shoot_bolt.FBX
+  artifactKey: Guid(46aa36bbff5d9894389e98d06a8cd3cb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/infantry_combat_shoot_bolt.FBX using Guid(46aa36bbff5d9894389e98d06a8cd3cb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d26a491f5fcca8ece2cefbe3777c572') in 0.042977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/aim_poses/handgun_combat_aim_down.FBX
+  artifactKey: Guid(c347722b70f094c4ab7031d7efb6ec3a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/aim_poses/handgun_combat_aim_down.FBX using Guid(c347722b70f094c4ab7031d7efb6ec3a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb519930a93b94e24badeed7cbcf843f') in 0.036299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/guard/handgun_guard_idle.FBX
+  artifactKey: Guid(0349aec9a696c03479fb84b68fb16386) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/guard/handgun_guard_idle.FBX using Guid(0349aec9a696c03479fb84b68fb16386) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4154fb9387349259c3302f199bb5f0e9') in 0.034524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/spec_ops/TS-SpecOps_Soldier_B.prefab
+  artifactKey: Guid(9db38311ef4add1438fcebdcc2c369fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/spec_ops/TS-SpecOps_Soldier_B.prefab using Guid(9db38311ef4add1438fcebdcc2c369fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93ea723298d7fde71480675d77427ca7') in 0.396821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_combat_run.FBX
+  artifactKey: Guid(10a9762e66c89f24aa82124820f18e10) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_combat_run.FBX using Guid(10a9762e66c89f24aa82124820f18e10) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a8b195ff7bebe57ab5de8f63c2772ce') in 0.041204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_combat_walk_right.FBX
+  artifactKey: Guid(22048a8848e0bdd44beb1a0a41448681) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_combat_walk_right.FBX using Guid(22048a8848e0bdd44beb1a0a41448681) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96a7a549ca6e660d39b2b5bbf8a2f5ba') in 0.040383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_combat_walk_left.FBX
+  artifactKey: Guid(3588fbb9b1fb492438a4ef61c3b1fe4d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_combat_walk_left.FBX using Guid(3588fbb9b1fb492438a4ef61c3b1fe4d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16db20519fb7f74068e6e458f7aadab5') in 0.037992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_prone_move.FBX
+  artifactKey: Guid(57119098a148b51409aa8f009109456d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_prone_move.FBX using Guid(57119098a148b51409aa8f009109456d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4209f5b81c34899b375e563c613e9c26') in 0.038693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_guard_walk.FBX
+  artifactKey: Guid(e1cf839f66b1f104fa8e3c405877aac6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/root_motion/handgun_RM_guard_walk.FBX using Guid(e1cf839f66b1f104fa8e3c405877aac6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b5c1c579145d5239cd3a86a6573d103') in 0.041797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/crouch/infantry_crouch_shoot_burst.FBX
+  artifactKey: Guid(6861367c4b3f6dd46afbba3b56e96102) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/crouch/infantry_crouch_shoot_burst.FBX using Guid(6861367c4b3f6dd46afbba3b56e96102) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c22d84292aced85e23d471ca53a7ad7c') in 0.036367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_ladder_climb_idle.FBX
+  artifactKey: Guid(b77a5570a91dc2e4eb976d77f8420058) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_ladder_climb_idle.FBX using Guid(b77a5570a91dc2e4eb976d77f8420058) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd47f42b4967d9daa31439d1b8b02a09') in 0.032757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Recon_B.prefab
+  artifactKey: Guid(ca0d7fbefa473f942b356f562c775cff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/prefabs/army/TS-Armies_Recon_B.prefab using Guid(ca0d7fbefa473f942b356f562c775cff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48d4958bd06723136da46a60a1b32059') in 0.361109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk_back.FBX
+  artifactKey: Guid(021b8efe37dd9534a9261cd16b8718fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk_back.FBX using Guid(021b8efe37dd9534a9261cd16b8718fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '361c98bd3c1552c93c59acdce1ee7fc7') in 0.033016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_run.FBX
+  artifactKey: Guid(b94456dd02784ff4d87afbc9cef567d5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_run.FBX using Guid(b94456dd02784ff4d87afbc9cef567d5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb1731a7562f0cb4956721af6f930c1b') in 0.034620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk_left.FBX
+  artifactKey: Guid(b80d38321615c414cbf2f534fd3c4263) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk_left.FBX using Guid(b80d38321615c414cbf2f534fd3c4263) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a50a9bd21037e31bac8c9717d086e336') in 0.036092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/guard/infantry_guard_run.FBX
+  artifactKey: Guid(d21fbcac84024934fae8e7a888b513b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/guard/infantry_guard_run.FBX using Guid(d21fbcac84024934fae8e7a888b513b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e521db3e366c72326839791b0179f486') in 0.034860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk_right.FBX
+  artifactKey: Guid(788a371729842354c9222875052c0453) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk_right.FBX using Guid(788a371729842354c9222875052c0453) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9f734087a12d6df00e016da54df59b1') in 0.034677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/crouch/infantry_crouch_shoot_shotgun.FBX
+  artifactKey: Guid(64fdf628fac49ab44a74f53966196a42) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/crouch/infantry_crouch_shoot_shotgun.FBX using Guid(64fdf628fac49ab44a74f53966196a42) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efcf3859d5ea12cc514c4a2bdd41d3af') in 0.036075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_walk_back.FBX
+  artifactKey: Guid(13f0195d12bca35429b34598892c4ba8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_walk_back.FBX using Guid(13f0195d12bca35429b34598892c4ba8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a01ea65628f2fc32cb040a71ee81eea') in 0.036465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_ladder_climb_down.FBX
+  artifactKey: Guid(0a861166787f4ba4bbc9e4313d4737de) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_ladder_climb_down.FBX using Guid(0a861166787f4ba4bbc9e4313d4737de) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec8cf953527dde3d19890d343da025e7') in 0.043695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk.FBX
+  artifactKey: Guid(d8dcb53062c4ff54c80a73081e8aa8f9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_combat_walk.FBX using Guid(d8dcb53062c4ff54c80a73081e8aa8f9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14aa4c102102f32c997bf92adb5bc82f') in 0.037848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_combat_run_left.FBX
+  artifactKey: Guid(daeb529052b5df6408d53b7fb3315549) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/movement/handgun_combat_run_left.FBX using Guid(daeb529052b5df6408d53b7fb3315549) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c14ed3c57261f1240640cadffcb1563c') in 0.037863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_reload.FBX
+  artifactKey: Guid(c5c7da6daa4a96e47b821799e4b711e5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/crouch/handgun_crouch_reload.FBX using Guid(c5c7da6daa4a96e47b821799e4b711e5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0d4908f4aef0eb3768d1ecac3bd4f03') in 0.040115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_draw.FBX
+  artifactKey: Guid(015c3272f51d43f438adca6ea72adf1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_draw.FBX using Guid(015c3272f51d43f438adca6ea72adf1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '687bf03e330e34e11ea123ce9e2706cb') in 0.039959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_ladder_climb_idle.FBX
+  artifactKey: Guid(261d872eb8ff9834387bb1f6f6bfbf80) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_ladder_climb_idle.FBX using Guid(261d872eb8ff9834387bb1f6f6bfbf80) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79c72ca5f547f5751912ca7acf18f123') in 0.037399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_sprint.FBX
+  artifactKey: Guid(3cb4c21e6b204a44a8a75036865aaf95) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_sprint.FBX using Guid(3cb4c21e6b204a44a8a75036865aaf95) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7be7643e41859d95521b83abe5aa454a') in 0.032473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/root_motion/infantry_RM_combat_walk_back.FBX
+  artifactKey: Guid(a22e7c354dad8bf479b41d02dda8869b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/root_motion/infantry_RM_combat_walk_back.FBX using Guid(a22e7c354dad8bf479b41d02dda8869b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20c138f892dc129eaa03e613e3a6182f') in 0.033930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_standup.FBX
+  artifactKey: Guid(f67a404282d66b44f8aba623c20fd94b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_standup.FBX using Guid(f67a404282d66b44f8aba623c20fd94b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71ebfe7b47259dbb13fdebd2d98c74de') in 0.041439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_shoot_bolt.FBX
+  artifactKey: Guid(9b68f0f7fa6efa7449b0f0417299c204) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_shoot_bolt.FBX using Guid(9b68f0f7fa6efa7449b0f0417299c204) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4720a718221948c3f6f80076edbd95a') in 0.038271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_idle.FBX
+  artifactKey: Guid(dbe6b7b7653c7164bb970d7bedbfae7d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_idle.FBX using Guid(dbe6b7b7653c7164bb970d7bedbfae7d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95d4f88495a7a35a8278201c5e8437db') in 0.035381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_shoot_shotgun.FBX
+  artifactKey: Guid(33697958a8805704dbd1564657644e43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/prone/infantry_prone_shoot_shotgun.FBX using Guid(33697958a8805704dbd1564657644e43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df8eda425f211ce159afc8f87b546dbe') in 0.035080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_jump_3_land.FBX
+  artifactKey: Guid(76393bf5a995c3c41954d08e9929dcbc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry/movement/infantry_jump_3_land.FBX using Guid(76393bf5a995c3c41954d08e9929dcbc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '770bf36b1abca3fa0d51c4e2c1d16129') in 0.037050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/prone/handgun_prone_take_damage.FBX
+  artifactKey: Guid(4130ea36ea9313448846d8c648e93aca) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Handgun/prone/handgun_prone_take_damage.FBX using Guid(4130ea36ea9313448846d8c648e93aca) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57ee51034c52926c4cae066d65617b5f') in 0.048552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/sample_scene/TS_Armies_sample_scene.unity
+  artifactKey: Guid(35ab20f6d2bf31e4ba9115f2c07ba345) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/sample_scene/TS_Armies_sample_scene.unity using Guid(35ab20f6d2bf31e4ba9115f2c07ba345) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Toon_Soldiers/ToonSoldiers_Armies/sample_scene/TS_Armies_sample_scene.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Toon_Soldiers/ToonSoldiers_Armies/sample_scene/TS_Armies_sample_scene.unity'
+	Deserialize:            182.301 ms
+	Integration:            439.696 ms
+	Integration of assets:  0.056 ms
+	Thread Wait Time:       -0.016 ms
+	Total Operation Time:   622.036 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b10859f859b0aaf864d9a6fb8b4f4658') in 12.153578 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (0.8 MB). Loaded Objects now: 5449.
+Memory consumption went from 100.0 MB to 99.1 MB.
+Total: 10.452100 ms (FindLiveObjects: 0.477700 ms CreateObjectMapping: 0.431800 ms MarkObjects: 8.433500 ms  DeleteObjects: 1.108000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (405.7 KB). Loaded Objects now: 5448.
+Memory consumption went from 99.7 MB to 99.3 MB.
+Total: 8.144400 ms (FindLiveObjects: 0.372000 ms CreateObjectMapping: 0.288400 ms MarkObjects: 7.202600 ms  DeleteObjects: 0.280200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007029 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4774 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (415.8 KB). Loaded Objects now: 5450.
+Memory consumption went from 194.6 MB to 194.2 MB.
+Total: 3.392100 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.252600 ms MarkObjects: 2.515100 ms  DeleteObjects: 0.230600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
