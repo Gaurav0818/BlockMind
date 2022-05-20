@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
-{ 
+{
+    public ParticleSystem gunFlash;
+    public float flashTimer = 0f;
+    public float flashTime = 0.1f; 
 
     CharacterController characterController;
     public float speed;
@@ -124,9 +127,23 @@ public class Movement : MonoBehaviour
             moveValue = Vector2.zero;
 
         if (lookPressed && Vector2.Distance(Vector2.zero, lookValue) > 0.95f)
+        {
             canShoot = true;
+            Shooting();
+        }
         else
             canShoot=false;
+
+        flashTimer += Time.deltaTime;
     } 
+
+    private void Shooting()
+    {
+        if(flashTime < flashTimer)
+        {
+            gunFlash.Play();
+            flashTimer = 0;
+        }
+    }
 
 }
