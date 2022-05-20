@@ -7,6 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.7BEC51F9" = "p: texture"
+	"OpenInspectorPreview.7BEC51F9" = "1"
+	"currentGroup.7BEC51F9" = "all"
 }
 providers = {
 	adb = {
@@ -51,13 +54,17 @@ providers = {
 	}
 }
 recentSearches = [
+	"p: "
+	"p: alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{}}}}}}}}}}}}}}}"
+	"p: alias{alias{alias{alias{alias{alias{alias{alias{alias{alias{}}}}}}}}}}"
+	"p: alias{alias{alias{alias{alias{alias{}}}}}}"
+	"p: alias{alias{}}"
 ]
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
-showSavedSearchPanel = false
-expandedQueries = [
-]
+showSavedSearchPanel = true
+expandedQueries = [961552606]
 queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
