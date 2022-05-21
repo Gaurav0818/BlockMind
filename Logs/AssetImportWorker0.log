@@ -15,7 +15,7 @@ C:/Games/Unity/GT/BlockMind
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50766
+58254
 Successfully changed project path to: C:/Games/Unity/GT/BlockMind
 C:/Games/Unity/GT/BlockMind
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Games/Unity/GT/BlockMind
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 453.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 200.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,49 +63,50 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004234 seconds.
+Registered in 0.002796 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 359.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 170.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.667 seconds
+- Completed reload, in  1.039 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1670ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1292ms)
-			LoadAssemblies (160ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (879ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (479ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (124ms)
+				InitializePlatformSupportModulesInManaged (107ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (360ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
+				RefreshPlugins (171ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021011 seconds.
+Registered in 0.007064 seconds.
+Android Extension - Scanning For ADB Devices 6139 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -113,568 +114,5 @@ Symbol file LoadedFromMemory doesn't match image C:\Games\Unity\GT\BlockMind\Lib
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 648.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 195.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.847 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4849ms)
-		BeginReloadAssembly (473ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (175ms)
-		EndReloadAssembly (4089ms)
-			LoadAssemblies (277ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (767ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (172ms)
-			SetupLoadedEditorAssemblies (2794ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (649ms)
-				BeforeProcessingInitializeOnLoad (347ms)
-				ProcessInitializeOnLoadAttributes (1485ms)
-				ProcessInitializeOnLoadMethodAttributes (266ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (465.9 KB). Loaded Objects now: 5826.
-Memory consumption went from 221.0 MB to 220.6 MB.
-Total: 14.179200 ms (FindLiveObjects: 1.124800 ms CreateObjectMapping: 1.281800 ms MarkObjects: 11.184500 ms  DeleteObjects: 0.583000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 225427.864644 seconds.
-  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Dirty_01.mat
-  artifactKey: Guid(e53ee67879a38444fa41d9568a485e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Dirty_01.mat using Guid(e53ee67879a38444fa41d9568a485e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'SyntyStudios/Triplanar': unrecognized identifier 'Input' at line 164 (on d3d11)
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
-Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
-Disabled keywords: SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
-Shader error in 'SyntyStudios/Triplanar': unrecognized identifier 'surfIN' at line 164 (on d3d11)
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
-Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
-Disabled keywords: SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
-Shader warning in 'SyntyStudios/Triplanar': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 21
-Shader error in 'SyntyStudios/Triplanar': unrecognized identifier 'Input' at line 164 (on d3d11)
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
-Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
-Disabled keywords: SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
-Shader error in 'SyntyStudios/Triplanar': unrecognized identifier 'surfIN' at line 164 (on d3d11)
-
-Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
-Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
-Disabled keywords: SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
-Shader warning in 'SyntyStudios/Triplanar': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 21
- -> (artifact id: '1e8dc47daaca8d5b64c196d65826af13') in 1.827806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.707382 seconds.
-  path: Assets/PolygonApocalypse/Materials/Misc/Shader/POLYGON_Zombies.shader
-  artifactKey: Guid(a7331fc07349b124c8c15d545676f9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Misc/Shader/POLYGON_Zombies.shader using Guid(a7331fc07349b124c8c15d545676f9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30777d3ed7780a2efd522fcffd54c400') in 0.030930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 476.015048 seconds.
-  path: Assets/PolygonApocalypse/Models/Materials/SimpleSky.mat
-  artifactKey: Guid(b3f5c64e7721e4e4cbb807c668321a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/Materials/SimpleSky.mat using Guid(b3f5c64e7721e4e4cbb807c668321a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35844a028c1db56c6aa776f1a55c3f91') in 0.064991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 960.572137 seconds.
-  path: Assets/PolygonApocalypse/Models/SM_Env_Road_Bare_01.fbx
-  artifactKey: Guid(e53af04ca99c9a245b35457bb33c09a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/SM_Env_Road_Bare_01.fbx using Guid(e53af04ca99c9a245b35457bb33c09a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fefb3eb9db54cd4b3e8232208856fb7') in 0.267317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.087900 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_Armies
-  artifactKey: Guid(a4348e7f223a3f047a57ec3054102495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies using Guid(a4348e7f223a3f047a57ec3054102495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14315459caa4852ac05bb7f107b04ffd') in 0.016858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.909188 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation
-  artifactKey: Guid(4d48c96e229501a46bfb97406e24b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation using Guid(4d48c96e229501a46bfb97406e24b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac77262ac661cb945e68ff14800e780') in 0.015546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.596302 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry
-  artifactKey: Guid(249bdc0886481c4488741a941c8c28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_Armies/animation/Infantry using Guid(249bdc0886481c4488741a941c8c28a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdd3a10b34d68f15204cc3f4cfd558d') in 0.016809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 156.118432 seconds.
-  path: Assets/Assets/FX pack/Prefabs/FX_Shell_Ejection_Repeating_Small_01.prefab
-  artifactKey: Guid(145319468195b02459b49eaea7e277cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Prefabs/FX_Shell_Ejection_Repeating_Small_01.prefab using Guid(145319468195b02459b49eaea7e277cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ac68e453d79846e35cdacfba83b530') in 0.267694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Assets/FX pack/Prefabs/FX_Sparkles_Small_01.prefab
-  artifactKey: Guid(24506cea1025d6241b81eed5c90ee609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Prefabs/FX_Sparkles_Small_01.prefab using Guid(24506cea1025d6241b81eed5c90ee609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4500bd89ece773e75461ba70bba2fa3') in 0.041651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.407849 seconds.
-  path: Assets/PolygonApocalypse/Models/SM_Prop_BedMatress_01.fbx
-  artifactKey: Guid(64e1e57e08de56a4daa4f29b49d31898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/SM_Prop_BedMatress_01.fbx using Guid(64e1e57e08de56a4daa4f29b49d31898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daf99b437f8b1202cec47b81eadf62f') in 0.019781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonApocalypse/Prefabs/Props/SM_Prop_BedMatress_02.prefab
-  artifactKey: Guid(16b73038770d3db40a53b4623be851f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Prefabs/Props/SM_Prop_BedMatress_02.prefab using Guid(16b73038770d3db40a53b4623be851f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254e7744e3ec05d9442e0dbe3bae7b97') in 0.426517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonApocalypse/Models/SM_Prop_BedMatress_02.fbx
-  artifactKey: Guid(966b87592cf52cc4ea7c632290e9eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/SM_Prop_BedMatress_02.fbx using Guid(966b87592cf52cc4ea7c632290e9eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9717b5e9acc8fbc7ae0c908564acdb') in 0.019369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.159078 seconds.
-  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_B.mat
-  artifactKey: Guid(0a96fc22949f5d844a5b0bd9a89c09d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_B.mat using Guid(0a96fc22949f5d844a5b0bd9a89c09d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677b0feae448744769d66b39bc8592c4') in 0.262408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.705648 seconds.
-  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_A.mat
-  artifactKey: Guid(532e7397a65f03c45b192469594faf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_A.mat using Guid(532e7397a65f03c45b192469594faf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be228e5c74884c9dfe6b306de813fac0') in 0.285587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_02.mat
-  artifactKey: Guid(eaee2fff52c59be4e9716394562cde00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_02.mat using Guid(eaee2fff52c59be4e9716394562cde00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e8e848d10a1fba349f97f411eb8b50') in 0.195561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_A.mat
-  artifactKey: Guid(80bcad2551f0c9049b69de9d01ca7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_A.mat using Guid(80bcad2551f0c9049b69de9d01ca7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e010d4fce85a6a33bb48ed783b5a6dd') in 0.336765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Assets/FX pack/Materials/PolygonParticles_Material_01_A.mat
-  artifactKey: Guid(82eb6f79a83225a4a9d4586b6fcea4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Materials/PolygonParticles_Material_01_A.mat using Guid(82eb6f79a83225a4a9d4586b6fcea4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fd7c2ad28a5dfcb62d41d3ae5a9829') in 0.062196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_B.mat
-  artifactKey: Guid(ecc4e2f2232137a44929c5ed4cf06818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_B.mat using Guid(ecc4e2f2232137a44929c5ed4cf06818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7dde07b909fca0ddb551e1ce28fa8b') in 0.296898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_05.mat
-  artifactKey: Guid(a6ec8d9cb6335dc4aab8be7278122547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_05.mat using Guid(a6ec8d9cb6335dc4aab8be7278122547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bb364f58423b8aafeaca833b63dff6') in 0.182891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_C.mat
-  artifactKey: Guid(cb55b56ee2c6f054c918f36b7dee35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_C.mat using Guid(cb55b56ee2c6f054c918f36b7dee35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b55e1b12e3e317c335a0c0cf63c7179') in 0.301572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.748580 seconds.
-  path: Assets/PolygonApocalypse/Models/Materials/PolygonApocalypse_Texture_01_4k.mat
-  artifactKey: Guid(47a59edc31d70aa4f8447313f4b41364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/Materials/PolygonApocalypse_Texture_01_4k.mat using Guid(47a59edc31d70aa4f8447313f4b41364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445eae2763c055a5b1895af3b284e17f') in 0.015783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonApocalypse/Prefabs/FX/Misc/Materials/PolygonApocalypse_Texture_01_Cleaned.mat
-  artifactKey: Guid(3c6729960fd3b5b49a805ccd12e470ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Prefabs/FX/Misc/Materials/PolygonApocalypse_Texture_01_Cleaned.mat using Guid(3c6729960fd3b5b49a805ccd12e470ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c60bbde52fc0bad7c97da719a3de67') in 0.018482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.479908 seconds.
-  path: Assets/PolygonApocalypse/Prefabs/FX/Misc/Materials/PolygonFarm_Texture_01_A_2k.mat
-  artifactKey: Guid(15a644ae0a795f34daca314c891221d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Prefabs/FX/Misc/Materials/PolygonFarm_Texture_01_A_2k.mat using Guid(15a644ae0a795f34daca314c891221d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7517056423fffe73668a23214e9800') in 0.018357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Texture_01_A.png
-  artifactKey: Guid(67cb44fbdc202b44e971ac2b57d5ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Texture_01_A.png using Guid(67cb44fbdc202b44e971ac2b57d5ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1aa8e928f9e068176967cba36a5416') in 0.078172 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (431.0 KB). Loaded Objects now: 5951.
-Memory consumption went from 114.6 MB to 114.2 MB.
-Total: 6.954800 ms (FindLiveObjects: 0.547400 ms CreateObjectMapping: 0.490500 ms MarkObjects: 5.612200 ms  DeleteObjects: 0.303000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 25.345835 seconds.
-  path: Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_02_B.png
-  artifactKey: Guid(5faf9a2a51e8d9d478293e50d1ef36ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_02_B.png using Guid(5faf9a2a51e8d9d478293e50d1ef36ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a58881456c7fa90e687b2fd2ae1cc2') in 0.024562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_02_C.png
-  artifactKey: Guid(5bf74002d18c81d44831b8b75eaf02a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_02_C.png using Guid(5bf74002d18c81d44831b8b75eaf02a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a5f701ce6682a7e8665d3318fb8215') in 0.019407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_01_A.png
-  artifactKey: Guid(822402f846727b24890cc7d5f5430675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_01_A.png using Guid(822402f846727b24890cc7d5f5430675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f1e33249e7a9ff6cc3c286cac09b24') in 0.022049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.043406 seconds.
-  path: Assets/PolygonApocalypse/Models/SM_Bld_Diner_Text_01.fbx
-  artifactKey: Guid(0d576edeb722b964f9cc15c026390f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/SM_Bld_Diner_Text_01.fbx using Guid(0d576edeb722b964f9cc15c026390f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239aa82bf5a449be88eb849b5bf5c8a8') in 0.031156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonApocalypse/Models/SM_Bld_Diner_Text_02.fbx
-  artifactKey: Guid(ff2f930c98ca1484aba6b226d1a17622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Models/SM_Bld_Diner_Text_02.fbx using Guid(ff2f930c98ca1484aba6b226d1a17622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd9ca0ba46585ed96d504124064d584') in 0.023048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.702693 seconds.
-  path: Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_03_C.png
-  artifactKey: Guid(937829baf3cbb564d9e88e7791b1f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_03_C.png using Guid(937829baf3cbb564d9e88e7791b1f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004b8f7083280f0e8a5da99459b95155') in 0.021796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_06_Mud.png
-  artifactKey: Guid(6f8f243a89d10c44c9c3d68061f6a3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_06_Mud.png using Guid(6f8f243a89d10c44c9c3d68061f6a3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff4a1e0ff334e8baab59109dda509ad') in 0.022734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Vehicle_Texture_01.png
-  artifactKey: Guid(962dfb6e8875c2c449032428eab5feff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Vehicle_Texture_01.png using Guid(962dfb6e8875c2c449032428eab5feff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c05541988f1192be0607ab7d99e64f') in 0.019328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png
-  artifactKey: Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png using Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9240bf418b27f130a0998952ad3afa9b') in 0.021084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05_Mud.png
-  artifactKey: Guid(7c9a2ab8b9d40e849a293da79bf523c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05_Mud.png using Guid(7c9a2ab8b9d40e849a293da79bf523c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4007226d1fbf27533ebab42e695be2') in 0.018022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03_Mud.png
-  artifactKey: Guid(6771dac9cc0150841b641dd045c1f374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03_Mud.png using Guid(6771dac9cc0150841b641dd045c1f374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce74d4d561b34533fe907995d5adafc') in 0.020630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.014122 seconds.
-  path: Assets/Assets/Toon_Soldiers/ToonSoldiers_Armies/models/materials/textures/TS_weapons_texture.tga
-  artifactKey: Guid(33e801679475a9445a525fdb880d7e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Toon_Soldiers/ToonSoldiers_Armies/models/materials/textures/TS_weapons_texture.tga using Guid(33e801679475a9445a525fdb880d7e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0758ddf15db003f563a3ab6ff79cbb80') in 0.018254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.817431 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Texture_01_Burnt.png
-  artifactKey: Guid(7cf05177d0dec624ea8db303943222cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Texture_01_Burnt.png using Guid(7cf05177d0dec624ea8db303943222cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09429deb3397504a5df3e6c3967a266d') in 0.017513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_02_B.png
-  artifactKey: Guid(5faf9a2a51e8d9d478293e50d1ef36ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_02_B.png using Guid(5faf9a2a51e8d9d478293e50d1ef36ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0963c24b4a35175ded287496b4c32df4') in 0.017327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.946349 seconds.
-  path: Assets/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Text_02.prefab
-  artifactKey: Guid(169cbc1c947dbe444bbc580e94c654c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Text_02.prefab using Guid(169cbc1c947dbe444bbc580e94c654c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efb5f89c7ae45d0b2bd2ebba8d256e0') in 0.235902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.450007 seconds.
-  path: Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_03_B.png
-  artifactKey: Guid(433973c31ecda854595417e79803cbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_03_B.png using Guid(433973c31ecda854595417e79803cbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ce404caa1b04fc86071686fde78d10') in 0.020823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_01_Mud.png
-  artifactKey: Guid(5bcafdb535777e948be8fb9202cb4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_01_Mud.png using Guid(5bcafdb535777e948be8fb9202cb4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc4c92b5df0eaf4aea705b889163883') in 0.017679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Vehicle_Texture_01.png
-  artifactKey: Guid(962dfb6e8875c2c449032428eab5feff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Vehicle_Texture_01.png using Guid(962dfb6e8875c2c449032428eab5feff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b222147c0d81790246ea8c84296daf9') in 0.018979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png
-  artifactKey: Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png using Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169905f90581cc3afb178f7c4944eee5') in 0.016194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05.png
-  artifactKey: Guid(c534b29903370914aa7dafb356bed5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05.png using Guid(c534b29903370914aa7dafb356bed5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0c8e35fb652fbc7d49a0c7ad0c5eb0') in 0.018164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03_Mud.png
-  artifactKey: Guid(6771dac9cc0150841b641dd045c1f374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03_Mud.png using Guid(6771dac9cc0150841b641dd045c1f374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b07d22fa43cac3d1cae0d1074df4cdd') in 0.019307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.802686 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Texture_01_Burnt.png
-  artifactKey: Guid(7cf05177d0dec624ea8db303943222cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Texture_01_Burnt.png using Guid(7cf05177d0dec624ea8db303943222cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baecdbcd002b51e1f5d592a8bbf7aa8') in 0.026346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_03_A.png
-  artifactKey: Guid(efd5730912d744e4fbfa7c03bfabae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_03_A.png using Guid(efd5730912d744e4fbfa7c03bfabae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9066f9ae8500074ddeee631c91fdd9') in 0.015032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.805747 seconds.
-  path: Assets/Assets/polyperfect/Low Poly Ultimate Pack/- Textures/color-atlas-gradient.png
-  artifactKey: Guid(bd9d0343175ea445eae5d3ffa327072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/polyperfect/Low Poly Ultimate Pack/- Textures/color-atlas-gradient.png using Guid(bd9d0343175ea445eae5d3ffa327072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42982b4b0572226bbf506e2d74e545f9') in 0.015604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Assets/polyperfect/Low Poly Ultimate Pack/- Textures/grass-texture.png
-  artifactKey: Guid(b44889aa490ee46c1b19e2649ce90f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/polyperfect/Low Poly Ultimate Pack/- Textures/grass-texture.png using Guid(b44889aa490ee46c1b19e2649ce90f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a380c1811426352a64c68855616c82e') in 0.014780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.469601 seconds.
-  path: Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Background.png
-  artifactKey: Guid(e11d579b5508f47198cf5697ec3f372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Background.png using Guid(e11d579b5508f47198cf5697ec3f372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd37cd078392616d1a8b129e25fd11b0') in 0.038805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Square.png
-  artifactKey: Guid(508a7439878cb470980c7c380e33c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Square.png using Guid(508a7439878cb470980c7c380e33c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87aa56fcdc25c90d3fed64460d85575') in 0.027010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Triangle.png
-  artifactKey: Guid(1f0081b11fbc24f21be87b8cfb313a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Triangle.png using Guid(1f0081b11fbc24f21be87b8cfb313a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a047e608922cdef37b83608084501ff9') in 0.033721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.648566 seconds.
-  path: Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Background_Pixel.png
-  artifactKey: Guid(87d37e6637d024409b971bd41fd92772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Background_Pixel.png using Guid(87d37e6637d024409b971bd41fd92772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59254c36414ef15f15f09924b1beb10') in 0.028771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Player_Pixel.png
-  artifactKey: Guid(0745a094db1314e99aaa1e1c7e5db023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/Examples/Platformer/Textures/Player_Pixel.png using Guid(0745a094db1314e99aaa1e1c7e5db023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd54b2c5f4e6e886721748a635e1b545') in 0.018364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.246465 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Bubble_02.png
-  artifactKey: Guid(6c7a37c6766adfc4fac5dffdb14284f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Bubble_02.png using Guid(6c7a37c6766adfc4fac5dffdb14284f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c739c60af90947cc79ba31ebca4c43') in 0.028598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Fumes_04.png
-  artifactKey: Guid(2eb84df899ad7fc4aa3b987e587d5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Fumes_04.png using Guid(2eb84df899ad7fc4aa3b987e587d5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3080e674c0e9b510026624bd6414d0c3') in 0.039763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Hexagon.png
-  artifactKey: Guid(9b13fd76834a28c4fa9ea626ba446015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Hexagon.png using Guid(9b13fd76834a28c4fa9ea626ba446015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ac561891a2e7137feac23defc603c9') in 0.026192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Smoke_01.png
-  artifactKey: Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Smoke_01.png using Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b94f117479bfa2a779aa482fc9bcc2b') in 0.020145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Swipe_02.png
-  artifactKey: Guid(a9a7424a52149bb4b84da7a71341f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Swipe_02.png using Guid(a9a7424a52149bb4b84da7a71341f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4967c2ceb7a768b51c4fdd1a625786') in 0.035716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Lightning_02.png
-  artifactKey: Guid(b1351c11dea42f845af85e73da6579f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Lightning_02.png using Guid(b1351c11dea42f845af85e73da6579f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efcd7158b8509d0ea4af0db9cfa40e9') in 0.027795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Circle_02.png
-  artifactKey: Guid(3b8dc5e143e5ce748bbbb8cca21399cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Circle_02.png using Guid(3b8dc5e143e5ce748bbbb8cca21399cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6d08093c2c54f65c8cfc4844dc877c') in 0.030089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_SemiCircle.png
-  artifactKey: Guid(f07e4b81cfc00d24e88a4b58da56db3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_SemiCircle.png using Guid(f07e4b81cfc00d24e88a4b58da56db3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7baefe0ee2773e53f4655d0ef95771e') in 0.022342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.700940 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Wings_Grid.png
-  artifactKey: Guid(5f9e461b624488b4e8132701494f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Wings_Grid.png using Guid(5f9e461b624488b4e8132701494f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d3efa94d64f0c5d8a050948435944') in 0.032513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.593040 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_BulletTrail.png
-  artifactKey: Guid(03f9cd753cdaef945b4cefdcda283901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_BulletTrail.png using Guid(03f9cd753cdaef945b4cefdcda283901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbe23b7657fd9b3992f0f2c0ab078a1') in 0.015316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Fumes_04.png
-  artifactKey: Guid(2eb84df899ad7fc4aa3b987e587d5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Fumes_04.png using Guid(2eb84df899ad7fc4aa3b987e587d5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255f732bef3dbcf186a1b8664b16f8b6') in 0.014603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Circle_Dark_01.png
-  artifactKey: Guid(913d37094a541b842b4f18f393f40ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Circle_Dark_01.png using Guid(913d37094a541b842b4f18f393f40ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd50a7013380b4c2f249f9ebf65d1d5c') in 0.014076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Smoke_01.png
-  artifactKey: Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Smoke_01.png using Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15226a00e65b073bc89e8a7c74f6f966') in 0.011482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Texture_01_A.png
-  artifactKey: Guid(67cb44fbdc202b44e971ac2b57d5ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Texture_01_A.png using Guid(67cb44fbdc202b44e971ac2b57d5ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b2a1c03c1b70968c3460be018759e6') in 0.016407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_RitualCircle_01.png
-  artifactKey: Guid(a0b77b3cfe92a174e82c48936951c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_RitualCircle_01.png using Guid(a0b77b3cfe92a174e82c48936951c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554bce9a6acbd6fa05afb2e7214b1cb6') in 0.009428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Sparkle.png
-  artifactKey: Guid(3ccce67bd48bfcd459a2ef0393fdf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Sparkle.png using Guid(3ccce67bd48bfcd459a2ef0393fdf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f7e314492f9b19b0bb53daadfefa46') in 0.012494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/FX pack/Textures/PolygonParticles_Soft_Spot_Dark.png
-  artifactKey: Guid(c8660b4dcd717b846900ad32c22a9162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FX pack/Textures/PolygonParticles_Soft_Spot_Dark.png using Guid(c8660b4dcd717b846900ad32c22a9162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5baaeae76f3d34b5be23a3d2886ca3f') in 0.012764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.525502 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/Base_normals.png
-  artifactKey: Guid(f77401e80b669b3489a7a480df56de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/Base_normals.png using Guid(f77401e80b669b3489a7a480df56de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12984c24b1f37f3d43165b5b2f23506a') in 0.017977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Emissive_01.png
-  artifactKey: Guid(52544eaa2c194144ab7b28fa647d781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Emissive_01.png using Guid(52544eaa2c194144ab7b28fa647d781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c6aac7dece7e11ddb73f431a3680d0') in 0.022247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Rubble_01.png
-  artifactKey: Guid(ac6d093243d7f6e4881209f3683968a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Rubble_01.png using Guid(ac6d093243d7f6e4881209f3683968a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c738a046c815376fc5bcc9ae3f9af8e6') in 0.017598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/Dirt_01.png
-  artifactKey: Guid(78ca77e891b851e42bb0307eec17e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/Dirt_01.png using Guid(78ca77e891b851e42bb0307eec17e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454329ab1e92cec7e5b526a498848c69') in 0.016257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Texture_01_Burnt.png
-  artifactKey: Guid(7cf05177d0dec624ea8db303943222cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Texture_01_Burnt.png using Guid(7cf05177d0dec624ea8db303943222cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9239460c4d1aae4d64396443a5baf39') in 0.018675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.713263 seconds.
-  path: Assets/Assets/ProCamera2D/TransitionFX Textures/circles.png
-  artifactKey: Guid(18b2f3f5a390c41228b5f04c5e8e6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/TransitionFX Textures/circles.png using Guid(18b2f3f5a390c41228b5f04c5e8e6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6449b23c5979e0d179432a3f1ce66e') in 0.031109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.286075 seconds.
-  path: Assets/Assets/ProCamera2D/TransitionFX Textures/clouds.png
-  artifactKey: Guid(74e8842fa592e44f4a11e261de560e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/ProCamera2D/TransitionFX Textures/clouds.png using Guid(74e8842fa592e44f4a11e261de560e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d888666faf87f04f1dc2423c38820b') in 0.017805 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

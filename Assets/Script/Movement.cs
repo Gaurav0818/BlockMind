@@ -107,8 +107,8 @@ public class Movement : MonoBehaviour
     {
         print(lookValue);
 
-        lookDir.x = lookValue.x * 100;
-        lookDir.z = lookValue.y * 100;
+        lookDir.x = lookValue.x * 1000000;
+        lookDir.z = lookValue.y * 1000000;
         transform.LookAt(lookDir);
 
         if (Vector3.Dot(defaultUp, lookDir) >= 0)
