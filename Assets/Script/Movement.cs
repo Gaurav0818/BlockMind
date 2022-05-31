@@ -6,12 +6,15 @@ public class Movement : MonoBehaviour
 {
     public ParticleSystem gunFlash;
     public float flashTimer = 0f;
-    public float flashTime = 0.1f; 
+    public float flashTime = 0.2f; 
+    float defaultFlashTime = 0.2f; 
 
     CharacterController characterController;
     public float speed;
     int horizontal;
     int vertical;
+    int reload;
+    int granade;
 
     bool movePressed;
     bool lookPressed;
@@ -22,6 +25,8 @@ public class Movement : MonoBehaviour
     int dirMulti = 1;
     float angle;
 
+    public float shootPower = 10;
+
     Vector2 moveValue;
     Vector2 lookValue;
     Vector3 lookDir;
@@ -29,6 +34,11 @@ public class Movement : MonoBehaviour
 
     InputControls control;
     Animator animator;
+
+
+    public GameObject bulletPrefab;
+    public GameObject GunTip;
+    GameObject bullet;
 
     #region - Awake / OnEnable / OnDisable - 
 
@@ -71,6 +81,7 @@ public class Movement : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         SetVectors();
         SetAnimator();
+        defaultFlashTime = flashTime;
     }
 
     void SetVectors()
@@ -86,6 +97,8 @@ public class Movement : MonoBehaviour
 
         horizontal = Animator.StringToHash("Horizontal");
         vertical = Animator.StringToHash("Vertical");
+        reload = Animator.StringToHash("IsReload"); 
+        granade = Animator.StringToHash("IsGrenade"); 
     }
 
 
@@ -141,9 +154,31 @@ public class Movement : MonoBehaviour
     {
         if(flashTime < flashTimer)
         {
+            flashTime = defaultFlashTime;
             gunFlash.Play();
             flashTimer = 0;
+            Shoot();
         }
+    }
+
+    private void Shoot()
+    {
+
+        Instantiate(bulletPrefab, GunTip.transform.position, GunTip.transform.rotation).
+        GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * shootPower);
+
+    }
+
+    public void Reload()
+    {
+        animator.SetBool(reload, true);
+        flashTime = 2f;
+    }
+
+    public void ThrowGranade()
+    {
+        animator.SetBool(granade, true);
+        flashTime = 2f;
     }
 
 }
