@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
 public class Camerafollow : MonoBehaviour
@@ -20,6 +21,8 @@ public class Camerafollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(player == null) return;
+        
         pos.x = player.position.x;
         pos.z = player.position.z;
 
@@ -29,11 +32,9 @@ public class Camerafollow : MonoBehaviour
         Ray ray = camera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2)) ;
 
         Physics.Raycast(ray,out hit);
-        print(hit.collider);
 
         if(hit.collider)
         {
-            print(hit.collider.gameObject.name);
             if (hit.collider.CompareTag("Player"))
             {
                 if (Object)
